@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Moskito Controller</title>
+    <style>
+      body {
+        margin: 0;
+        position: relative;
+      }
+      #debug {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: rgba(0,0,0, 0.8);
+        color: #0f0;
+        font-size: 8px;
+        width: 200px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="control" style="">
+    </canvas>
+    <div id="debug">
+      throttle: <span id="debugThrottle"></span><br />
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/script/control.js"></script>
+  </body>
+</html>

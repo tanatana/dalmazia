@@ -1,0 +1,16 @@
+{
+  "name": "dalmazia",
+  "version": "0.1.0",
+  "description": "3rd-party client for Moskito",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "noble": "^1.9.1",
+    "socket.io": "^2.1.1"
+  }
+}
